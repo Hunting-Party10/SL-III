@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat;
+            background-color:seashell;
+        }
+        input[type=text], input[type=password]{
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-left: 30%;
+        }
+        button {
+            background-color: rgb(0, 38, 255);
+            color: white;
+            padding: 14px 20px;
+            margin-left: 40%;
+            border: none;
+            cursor: pointer;
+            width: 20%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+        .modal {
+
+            position: fixed; 
+            z-index: 1;
+            left: 25%;
+            top: 3%;
+            width: 40%;
+            height: 100%;
+            overflow: auto;
+            padding-top: 60px;            
+            }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+            }
+    
+        </style>
+       <title>Welcome</title>
+    </head>
+    <body >
+        <h1 style="margin-left: 25%">Welcome to Alpha Computer Electronics</h1>
+        <div id="id01" class="modal">
+            <form class="modal-content" action="index.html"><br>
+                    &nbsp;<div style="text-align: center">Username</div> <br>
+                    <input type="text" name="username" placeholder="Username"><br>
+                    &nbsp; <div style="text-align: center">Password</div><br>
+                    <input type="text" name="lastname" placeholder="Password"><br><br>
+                    <button type="submit">Login</button>
+                    <br><br>
+                    <a href="forgot.html"><div style="text-align: center">Forgot Password?</div></a>
+                    &nbsp;&nbsp;
+            </form>
+        </div>
+    </body>
+</html>
