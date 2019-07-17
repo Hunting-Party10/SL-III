@@ -3,41 +3,65 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alpha Electronics</title>
-	<link rel="stylesheet" type="text/css" href="/home/a3-403-16/33307/Experiment2/css/indexstyle.css"></style>
+	<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
 </head>
-<body>
-	<section align="center">
-		<h1>Welcome to Alpha Electronics</h1>
-	</section>
-		<hr style="border:1px solid black">
-	<h3>
-		<nav>
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;	
-		<a href="catelogue.html">Catelogue</a>
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		<a href="profile.html">My Profile</a>
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		<a href="about.html">About</a>
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		<a href="contactus.html">Contact Us</a>
-		&nbsp;&nbsp;
-		&nbsp;&nbsp;
-		<a href="login.html">Logoff</a>
-		</nav>
-		<!--<hr width="1" size="5" style="border:1px solid black">-->
-	</h3>
-	<hr style="border:1px solid black">	
-	<article>
-		<section>
-			<p>We provide after-market parts for all electronic devices</p>
-		</section>
-	</article>
+<body >
+	<a href="index.html" class="title">Alpha Electronics</a> 
+	<div class="navbar">
+		<div class="dropdown">
+			<button class="dropbtn">Catelogue</button>
+			<div class="dropdown-content">
+				<a href="cpus.html">CPU</a>
+				<a href="gpus.html">GPU</a>
+				<a href="#">Motherboard</a>
+				<a href="#">PSU</a>
+				<a href="#">RAM</a>
+			</div>
+		</div>
+		
+		<div class="navbar-content">
+			<a href="profile.html">Our Customers</a>
+		</div>
+		<div class="navbar-content">
+			<a href="about.html">About</a>
+		</div>
+		<div class="navbar-content">
+			<a href="login.html">Logoff</a>
+		</div>
+	</div>
+	
+
+	<div class="title-center">
+		Our Products
+	</div>
+		<div class="grid-container">
+			<div><img src="images/gpu.jpeg" alt=""></div>
+			<div class="imp-content">A central processing unit (CPU), also called a central processor or main processor, is the electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions.</div>
+		</div>
+		
+		<div class="grid-container">
+			<div class="imp-content">A graphics processing unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device.</div>
+			<div><img src="images/nvidia.jpg" alt=""></div>
+		</div>
+
+		<div class="grid-container">
+			<div><img src="images/motherboard.jpg" alt=""></div>
+			<div class="imp-content">A motherboard is the main printed circuit board (PCB) found in general purpose computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit (CPU) and memory, and provides connectors for other peripherals.</div>
+		</div>
+		<div class="grid-container">
+				<div class="imp-content">A power supply unit (or PSU) converts mains AC to low-voltage regulated DC power for the internal components of a computer. Modern personal computers universally use switched-mode power supplies.</div>
+			<div><img src="images/psu.jpg" alt=""></div>
+		</div>
+
+		<div class="grid-container">
+				
+			<div><img src="images/ram.jpg" alt=""></div>
+			<div class="imp-content">A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory</div>
+		</div>
+
+	<footer>
+		<p>Posted by: Atharva Joshi</p>
+  		<p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+		</footer>
 </body>
 </html>

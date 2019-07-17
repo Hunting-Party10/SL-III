@@ -1,0 +1,20 @@
+.catelogue-container{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 100px 100px 100;
+    margin-top: 4%;
+    padding-left: 20px;
+    align-content: center;
+}
+
+.catelogue-container img{
+        object-fit: fill;
+}
+.catelogue-container button{
+
+    outline: none;
+    background: rgb(224, 173, 6);
+    margin-top: 5%;
+    font-size: 120%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
